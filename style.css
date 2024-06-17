@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+.center-title{
+  text-align: center;
+}
+
+
+.center-links {
+  text-align: center; /* Center the links horizontally */
+}
+
+.center-links a {
+  padding: 10px; /* Padding on left and right sides */
+  background-color: grey; /* Background color */
+  text-decoration: none; /* Remove underline */
+  color: white; /* Link color */
+  display: inline-block; /* Ensure padding affects the entire clickable area */
+  margin: 5px; /* Add margin between links */
+}
+
+#featured-property  figure {
+  text-align: center;
+ 
+  
+}
+#featured-property  p {
+ text-align: center;
+  display: flex;
+   width: 800px;
+ justify-content: center;
+  align-items: center;
+  
+}
+#details  {
+  display: flex;
+  justify-content: center; /* Center items horizontally within the section */
+  align-items: center; /* Center items vertically within the section */
+
+  background-color: #f70707; /* Optional: background color for the section */
+
+}
+#details  div{
+  margin: 70px; 
+;
+}
+
